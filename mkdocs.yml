@@ -1,3 +1,41 @@
-site_name: Loafer-git-document
+site_name: Loafer Git Document
+site_url: https://loafer-git.github.io/document/
+site_description : Document
+site_author : Loafer(jtret2423@gmail.com)
+
+copyright: Copyright &copy; loafer
+
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  features:
+    - search.suggest
+    - search.highlight
+
+extra:
+  analytics:
+    provider: google
+    property: G-6FPTB6BYPR
+  generator: false
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/loafer-git
+#    - icon: fontawesome/brands/linkedin 
+#      link: h
+#    - icon: fontawesome/brands/facebook 
+#      link: https://www.facebook.com/heumsi/
