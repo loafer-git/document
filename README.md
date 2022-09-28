@@ -1,3 +1,3 @@
-# Loafer Git Document
+# Loafer Github Document
 
 URL : https://loafer-git.github.io/document/
